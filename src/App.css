@@ -1,0 +1,63 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    height: 30vmin;
+    position: relative;
+    margin-top: 30px
+}
+
+.App-header {
+    background-image: linear-gradient(to right top, #845ec2, #e954aa, #ff6b73, #ffa932, #ebeb12);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.btn {
+    position: relative;
+    margin-top: 20px;
+    border-radius: 10px;
+    height: 40px;
+    width: 150px;
+    background: #845EC2;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    font-size: 18px;
+    box-shadow: -1px 11px 24px -6px rgba(0, 0, 0, 0.75);
+    /* remove select border */
+    outline: none;
+}
+
+.btn:hover {
+    background-color: rgb(103, 73, 151);
+    cursor: pointer;
+    ;
+}
+
+.btn:active {
+    background-color: rgb(103, 73, 151);
+    ;
+    transform: translateY(4px);
+}
+
+.bullet {
+    list-style-type: none;
+    font-size: bold;
+}
+
+.DisplayEmployee {
+    position: relative;
+    margin-top: 90px;
+}
+
+.DisplaySimpsons {
+    position: relative;
+    margin-top: 10px;
+}
